@@ -1,0 +1,29 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Pug SASS starter project",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gary C",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "eslint": "^6.2.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "gulp-if": "^3.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/browser-sync": "^2.26.1",
+    "@types/gulp": "^4.0.6",
+    "@types/gulp-sass": "^4.0.0",
+    "gulp": "^4.0.2"
+  }
+}
