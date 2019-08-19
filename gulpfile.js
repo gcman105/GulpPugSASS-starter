@@ -18,7 +18,7 @@ function dotypescript() {
 }
 
 function dopug() {
-  return gulp.src('./src/pug/**/*.pug')
+  return gulp.src('./src/pug/*.pug')
     .pipe(pug())
     .pipe(gulp.dest('./dest'));
 }

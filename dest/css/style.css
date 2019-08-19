@@ -6958,3 +6958,6 @@ label.panel-block {
 
 body {
   height: 400vh; }
+
+.column {
+  background-color: #d9d5bf; }
