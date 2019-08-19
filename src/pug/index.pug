@@ -6,12 +6,24 @@ html(lang="en")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     title Pug SASS Starter
     link(rel='stylesheet', href='/css/style.css')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap&subset=latin-ext')
+    script(src='https://use.fontawesome.com/releases/v5.3.1/js/all.js')
   body
 
-    h1 Starter
+    section.section
 
-    h2 by Gary Cheeseman
+      .container
 
-    p This is some text also 4
+        h1.title.is-primary
+          i.far.fa-angry
+          |  Starter
+          |
+          i.fas.fa-angry
+
+        h2.subtitle by Gary Cheeseman
+
+        p This is some text also 7
+
+        button.button.is-primary Button
 
     script(src='/scripts/script.js')

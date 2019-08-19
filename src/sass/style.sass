@@ -1,11 +1,16 @@
-$primary-color-1: #e86464;
-$primary-bg-color-1: #f4af01;
+// Set your brand colors
+$primary-color-1: #e86464
+$primary-bg-color-1: #f4af01
+$beige-lighter: #d9d5bf
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif
+
+// Update some of Bulma's component variables
+$input-background-color: $beige-lighter
+
+// Import the rest of Bulma
+@import '../../node_modules/bulma/bulma.sass'
 
 body
-  background-color: $primary-bg-color-1
-  color: $primary-color-1
   height: 400vh
-
-h1
-  background-color: #000000
-  color: #888888

@@ -1,0 +1,11 @@
+<project>
+    <documents>
+        <document url="index.html">
+            <elements>
+                <element selector="html" desc="<nametag>html</nametag>" status="ok" auto="true">
+                    <action id="wp-template" wp-template wp-template-export-as="index.php" wp-template-define-master-page="true" name="Page settings"></action>
+                </element>
+            </elements>
+        </document>
+    </documents>
+</project>
