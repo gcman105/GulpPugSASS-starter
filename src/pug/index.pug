@@ -18,22 +18,26 @@ html(lang="en")
       .container
 
         h1.title.is-primary
-          i.far.fa-angry
+          span.icon.has-text-warning
+            i.far.fa-angry
           |  Starter
           |
-          i.fas.fa-angry
+          span.icon.has-text-danger
+            i.fas.fa-angry
 
         h2.subtitle by Gary Cheeseman
 
         .columns
-          .column First Column
-          .column Second Column
-          .column Third Column
-          .column Fourth Column
+          .column.is-one-third First Column
+          .column
+            .box Second Column
+          .column
+            .box Third Column
+          .column.is-one-fifth Fourth Column
 
-        p This is some text also 7
+        p.is-large This is some text also 7
 
-        button.button.is-primary Button
+        button.button.is-warning Button
 
     include includes/footer.pug
 
